@@ -1,15 +1,13 @@
 # code your #valid_move? method here
 def valid_move?(board, position)
-array = @board
-if array[arr_index][index]  == "X" ||
-    array[arr_index][index]  == "O"
-    invalid
-    puts "Where to :"
-    @move = gets.chomp.to_i
-    mapping(@move,@marker)
-    return true
-end
-return false
+    puts 'true'
+    move(board, index, token)
+    display_board(board)
+   else
+    puts 'false'
+    turn(board)
+  end
+  display_board(board)
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board,position)
