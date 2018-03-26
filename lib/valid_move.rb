@@ -1,7 +1,5 @@
 # code your #valid_move? method here
-# def valid_move?(board, position)
-# end
-
+def valid_move?(board, position)
 array = @board
 if array[arr_index][index]  == "X" ||
     array[arr_index][index]  == "O"
